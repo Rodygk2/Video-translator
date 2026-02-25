@@ -21,6 +21,7 @@ Translation
   │
   ▼
 Subtitle Generation (.srt)
+
 🧰 Stack Technique
 Technologie	Rôle
 Python	Script principal
@@ -57,9 +58,11 @@ video-translator
 ├── requirements.txt
 └── README.md
 ⚙️ Installation
+
 1️⃣ Cloner le projet
 git clone https://github.com/username/video-translator.git
 cd video-translator
+
 2️⃣ Créer un environnement virtuel
 
 Windows
@@ -71,6 +74,7 @@ Mac / Linux
 
 python3 -m venv venv
 source venv/bin/activate
+
 3️⃣ Installer les dépendances
 pip install -r requirements.txt
 
@@ -83,6 +87,7 @@ pip install ffmpeg-python
 Puis :
 
 pip freeze > requirements.txt
+
 4️⃣ Installer FFmpeg
 
 Télécharger ici :
@@ -92,11 +97,13 @@ https://ffmpeg.org/download.html
 Vérifier l'installation :
 
 ffmpeg -version
+
 ▶️ Utilisation
 Ajouter une vidéo
 videos/video.mp4
 Lancer le programme
 python main.py
+
 📄 Résultats
 
 Après exécution :

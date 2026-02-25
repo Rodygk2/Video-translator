@@ -1,0 +1,18 @@
+# environnement virtuel
+venv/
+
+# fichiers python compilés
+__pycache__/
+*.pyc
+
+# fichiers audio générés
+audio/
+
+# résultats
+outputs/
+
+# fichiers OS
+.DS_Store
+Thumbs.db
+
+videos/
